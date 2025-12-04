@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>MY PORTFOLIO</title>
+
+
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="jQuery.js"></script>
+		<!-----------JS---------------->
+	<script src="main.js" async></script>
+
+    <script src="https://kit.fontawesome.com/494a946aec.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+    <nav>
+        <div class="social-media">
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+
+            <div class="phone">
+                <span><a href="#"><i class="fa-solid fa-phone"></i></a>+639912345678</span>
+            </div>
+
+        </div>
+
+        <div class="nav">
+
+			<ul class="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#categories" class="categories"></a></li>
+			</ul>
+		</div>
+
+       
+    </nav>
+
+    <section id="categories">
+    
+        <ul id="autoWidth" class="cs-hidden">
+            <li class="item">
+                <div class="feature-box">
+                    <a href="#student">
+                        <img src="images/user.jpg"/>
+                    </a>
+                </div>  
+                <span>STUDENT</span>			
+              </li> 
+
+              <li class="item">
+                <div class="feature-box">
+                    <a href="#education">
+                        <img src="images/education.jpg"/>
+                    </a>
+                </div>  
+                <span>EDUCATION</span>			
+              </li> 
+    
+              <li class="item">
+                <div class="feature-box">
+                    <a href="#skills">
+                        <img src="images/skills.jpg"/>
+                    </a>
+                </div>  
+                <span>SKILLS</span>			
+              </li>   		
+    
+              <li class="item">
+                <div class="feature-box">
+                    <a href="#experience">
+                        <img src="images/experience.jpg"/>
+                    </a>
+                </div>  
+                <span>EXPERIENCE</span>			
+              </li>              					
+        </ul>   
+    </section>
+
+    
+<section id="student">
+	<div class="cat-heading">
+		<h2> Student </h2>
+	</div>
+<section class="container">
+    <div class="content">
+		<div class="box">
+			<img src="images/student.jpg" class="cat-image">
+			<h2 class="title">DEL ROSARIO, KIONA LEI Z.</h2>
+		</div>
+
+		<div class="box">
+			<h2 class="title">Hello there! My name is Kiona Lei Z. Del Rosario, 18 years old and a 
+                            first year BSIT student in New Era University. </h2>
+		</div>
+	</div>
+</section>
+</section>
+
+<section id="education">
+	<div class="cat-heading">
+		<h2> Education </h2>
+	</div>
+<section class="container">
+
+	<!----CONTENT------>
+	<div class="content">
+
+        <div class="box">
+			<img src="images/hs.png" class="cat-img">
+			<h2 class="title">NEW ERA HIGH SCHOOL</h2>
+            <p class="year">2017-2020</p>
+		</div>
+
+        <div class="box"><br>
+			<img src="images/shs.png" class="product-img">
+			<h2 class="title"><br>STI COLLEGE CUBAO</h2>
+            <p class="year">2021-2023</p>
+		</div>
+
+        <div class="box">
+			<img src="images/coll.png" class="product-img">
+			<h2 class="title">NEW ERA UNIVERSITY</h2>
+            <p class="year">2023-PRESENT</p>
+		</div>		
+	</div>
+</section>
+</section>
+
+<section id="skills">
+	<div class="cat-heading">
+		<h2>Skills</h2>
+	</div>
+<section class="container">
+
+	<!----soft skills------>
+    <div class="content">
+		<div class="box">
+			<h2 class="title">SOFT SKILLS:</h2>
+            <p class="input">TIME MANAGEMENT</p>
+            <p class="input">ADAPTABILITY</p>
+            <p class="input">WORK ETHIC</p>
+			<br><br>
+		</div>
+	</div>
+
+    <!----hard skills------>
+
+	<div class="content">
+		<div class="box">
+            <h2 class="title">HARD SKILLS:</h2>
+			<p class="input">BEGINNER SKILLS IN THE FOLLOWING PROGRAMMING LANGUAGES:<br>HTML<br>CSS<br>JAVA<br>JAVASCRIPT<br>C#</p>
+            <p class="input">BASIC SKILLS IN MICROSOFT: <BR>WORD<BR>EXCEL<BR>POWERPOINT</p>
+            <p class="input">TYPING SPEED OF 70 WORDS PER MINUTE</p>
+            <p class="input">CAN SPEAK ENGLISH AND FILIPINO LANGUAGE FLUENTLY</p>
+		</div>
+	</div>
+</section> 
+</section>
+
+<section id="experience">
+	<div class="cat-heading">
+		<h2>Experience</h2>
+	</div>
+<section class="container">
+
+	<!----CONTENT------>
+	<div class="content">
+		<div class="box">
+			<h2 class="title">E-COMMERCE WEBSITE PERFORMANCE TASK IN SENIOR HIGH SCHOOL</h2>
+		</div>
+	</div>
+</section>
+</section>
+
+
+<!--------------------JS/JQuery----------------->
+
+<script type="main.js"></script>
+
+	<script type="text/javascript">
+		  $(window).scroll(function(){
+		  	if($(document).scrollTop() > 50 ){
+		  		$('.nav').addClass('fix-nav');
+		  	}
+		  	else {
+		  		$('.nav').removeClass('fix-nav');
+
+		  	}
+		  });
+
+    </script>
+
+</body>
+</html>
